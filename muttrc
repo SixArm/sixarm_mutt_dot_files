@@ -1,4 +1,3 @@
-
 ###
 #
 #  Mutt & Maildir
@@ -81,6 +80,6 @@ unignore From: To: Reply-To: Cc: Subject: Date:
 
 ## Edit with emacs client
 
-set editor=emacsclient
+set editor="emacsclient -a ''"
 
 
