@@ -80,6 +80,6 @@ unignore From: To: Reply-To: Cc: Subject: Date:
 
 ## Edit with emacs client
 
-set editor="emacsclient -a ''"
+set editor = "/usr/bin/emacs %s --eval '(setq make-backup-files nil)'"
 
 
